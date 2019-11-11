@@ -15,6 +15,8 @@ public class MultiplePostcodeTEst {
     private static String postcodeJSON = "{\"postcodes\": [\"se12 0nb\", \"se3 8pf\"]}";
     private static JsonPath multiplePCResponse;
 
+
+
     @BeforeClass
     public static void setup(){
         baseURI = "https://api.postcodes.io";
